@@ -20,6 +20,30 @@ it, simply add the following line to your Podfile:
 pod 'MXAvroLogValidate'
 ```
 
+##Usage
+```objective-c
+NSArray *schemas = @[@"BaseLog",
+                         @"CreateHotelOrder",
+                         @"SubmitCarOrder",
+                         @"CarOrder",
+                         @"EventType",
+                         @"SubmitHotelOrder",
+                         @"Client",
+                         @"HotelOrder",
+                         @"UserInfo",
+                         @"CreateCarOrder",
+                         @"Order"];
+    [MXAvroLogValidator configWithRootSchema:@"BaseLog" subSchemas:schemas];
+    NSDictionary *dic = jsonObject;
+    [dic validateAvroLogWith:^(BOOL validateResult, NSDictionary * _Nonnull invalidatePathDic) {
+        if (!validateResult) {
+            NSLog(@"校验失败:%@",invalidatePathDic);
+        }else {
+            NSLog(@"校验成功");
+        }
+    }];
+```
+
 ## Author
 
 xuvw, smileshitou@hotmail.com
