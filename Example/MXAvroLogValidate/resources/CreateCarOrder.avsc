@@ -1,0 +1,15 @@
+{
+  "type" : "record",
+  "name" : "CreateCarOrder",
+  "namespace" : "com.huangbaoche.logservice.avro",
+  "fields" : [ {
+    "name" : "orderNo",
+    "type" : [ "null", "string" ]
+  }, {
+    "name" : "goodNo",
+    "type" : [ "null", "string" ]
+  }, {
+    "name" : "orderType",
+    "type" : [ "null", "string" ]
+  } ]
+}

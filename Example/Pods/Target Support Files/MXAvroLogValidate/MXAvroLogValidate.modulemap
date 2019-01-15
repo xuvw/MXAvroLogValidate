@@ -1,0 +1,6 @@
+framework module MXAvroLogValidate {
+  umbrella header "MXAvroLogValidate-umbrella.h"
+
+  export *
+  module * { export * }
+}

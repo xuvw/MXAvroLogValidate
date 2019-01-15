@@ -9,6 +9,18 @@
 /* Begin PBXBuildFile section */
 		358ECB361C4DF83571141AA7 /* Pods_MXAvroLogValidate_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FD668A3252760B4AAC06983 /* Pods_MXAvroLogValidate_Example.framework */; };
 		48AFFDEDCEA646C870484D40 /* Pods_MXAvroLogValidate_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6556E466FA9AA79C509026E /* Pods_MXAvroLogValidate_Tests.framework */; };
+		506266F521EDCDFD001E2BA1 /* UserInfo.avsc in Resources */ = {isa = PBXBuildFile; fileRef = 506266E821EDCDFD001E2BA1 /* UserInfo.avsc */; };
+		506266F721EDCDFD001E2BA1 /* SubmitHotelOrder.avsc in Resources */ = {isa = PBXBuildFile; fileRef = 506266EA21EDCDFD001E2BA1 /* SubmitHotelOrder.avsc */; };
+		506266F821EDCDFD001E2BA1 /* EventType.avsc in Resources */ = {isa = PBXBuildFile; fileRef = 506266EB21EDCDFD001E2BA1 /* EventType.avsc */; };
+		506266F921EDCDFD001E2BA1 /* Client.avsc in Resources */ = {isa = PBXBuildFile; fileRef = 506266EC21EDCDFD001E2BA1 /* Client.avsc */; };
+		506266FA21EDCDFD001E2BA1 /* Order.avsc in Resources */ = {isa = PBXBuildFile; fileRef = 506266ED21EDCDFD001E2BA1 /* Order.avsc */; };
+		506266FB21EDCDFD001E2BA1 /* BaseLog.avsc in Resources */ = {isa = PBXBuildFile; fileRef = 506266EE21EDCDFD001E2BA1 /* BaseLog.avsc */; };
+		506266FC21EDCDFD001E2BA1 /* CreateHotelOrder.avsc in Resources */ = {isa = PBXBuildFile; fileRef = 506266EF21EDCDFD001E2BA1 /* CreateHotelOrder.avsc */; };
+		506266FD21EDCDFD001E2BA1 /* CarOrder.avsc in Resources */ = {isa = PBXBuildFile; fileRef = 506266F021EDCDFD001E2BA1 /* CarOrder.avsc */; };
+		506266FE21EDCDFD001E2BA1 /* SubmitCarOrder.avsc in Resources */ = {isa = PBXBuildFile; fileRef = 506266F121EDCDFD001E2BA1 /* SubmitCarOrder.avsc */; };
+		506266FF21EDCDFD001E2BA1 /* HotelOrder.avsc in Resources */ = {isa = PBXBuildFile; fileRef = 506266F221EDCDFD001E2BA1 /* HotelOrder.avsc */; };
+		5062670021EDCDFD001E2BA1 /* CreateCarOrder.avsc in Resources */ = {isa = PBXBuildFile; fileRef = 506266F321EDCDFD001E2BA1 /* CreateCarOrder.avsc */; };
+		5062670121EDCDFD001E2BA1 /* EventType.avdl in Resources */ = {isa = PBXBuildFile; fileRef = 506266F421EDCDFD001E2BA1 /* EventType.avdl */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -37,10 +49,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		009343CAFD7FE54303A7F669 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		009343CAFD7FE54303A7F669 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		0322D16B994A05B27203C3E4 /* Pods-MXAvroLogValidate_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MXAvroLogValidate_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-MXAvroLogValidate_Example/Pods-MXAvroLogValidate_Example.release.xcconfig"; sourceTree = "<group>"; };
 		31C6961BD2C191ABAE3E0395 /* Pods-MXAvroLogValidate_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MXAvroLogValidate_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MXAvroLogValidate_Tests/Pods-MXAvroLogValidate_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		32A5025EA76D2F4D25AECC44 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		32A5025EA76D2F4D25AECC44 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		506266E821EDCDFD001E2BA1 /* UserInfo.avsc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = UserInfo.avsc; sourceTree = "<group>"; };
+		506266EA21EDCDFD001E2BA1 /* SubmitHotelOrder.avsc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SubmitHotelOrder.avsc; sourceTree = "<group>"; };
+		506266EB21EDCDFD001E2BA1 /* EventType.avsc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = EventType.avsc; sourceTree = "<group>"; };
+		506266EC21EDCDFD001E2BA1 /* Client.avsc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Client.avsc; sourceTree = "<group>"; };
+		506266ED21EDCDFD001E2BA1 /* Order.avsc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Order.avsc; sourceTree = "<group>"; };
+		506266EE21EDCDFD001E2BA1 /* BaseLog.avsc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = BaseLog.avsc; sourceTree = "<group>"; };
+		506266EF21EDCDFD001E2BA1 /* CreateHotelOrder.avsc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CreateHotelOrder.avsc; sourceTree = "<group>"; };
+		506266F021EDCDFD001E2BA1 /* CarOrder.avsc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CarOrder.avsc; sourceTree = "<group>"; };
+		506266F121EDCDFD001E2BA1 /* SubmitCarOrder.avsc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SubmitCarOrder.avsc; sourceTree = "<group>"; };
+		506266F221EDCDFD001E2BA1 /* HotelOrder.avsc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = HotelOrder.avsc; sourceTree = "<group>"; };
+		506266F321EDCDFD001E2BA1 /* CreateCarOrder.avsc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CreateCarOrder.avsc; sourceTree = "<group>"; };
+		506266F421EDCDFD001E2BA1 /* EventType.avdl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = EventType.avdl; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* MXAvroLogValidate_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MXAvroLogValidate_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -61,7 +85,7 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		7364744E6BC03E080AE79E9C /* MXAvroLogValidate.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = MXAvroLogValidate.podspec; path = ../MXAvroLogValidate.podspec; sourceTree = "<group>"; };
+		7364744E6BC03E080AE79E9C /* MXAvroLogValidate.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = MXAvroLogValidate.podspec; path = ../MXAvroLogValidate.podspec; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9FD668A3252760B4AAC06983 /* Pods_MXAvroLogValidate_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MXAvroLogValidate_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A158FE8BF04710AF92946440 /* Pods-MXAvroLogValidate_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MXAvroLogValidate_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MXAvroLogValidate_Tests/Pods-MXAvroLogValidate_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -95,6 +119,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		506266E721EDCDFD001E2BA1 /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				506266E821EDCDFD001E2BA1 /* UserInfo.avsc */,
+				506266EA21EDCDFD001E2BA1 /* SubmitHotelOrder.avsc */,
+				506266EB21EDCDFD001E2BA1 /* EventType.avsc */,
+				506266EC21EDCDFD001E2BA1 /* Client.avsc */,
+				506266ED21EDCDFD001E2BA1 /* Order.avsc */,
+				506266EE21EDCDFD001E2BA1 /* BaseLog.avsc */,
+				506266EF21EDCDFD001E2BA1 /* CreateHotelOrder.avsc */,
+				506266F021EDCDFD001E2BA1 /* CarOrder.avsc */,
+				506266F121EDCDFD001E2BA1 /* SubmitCarOrder.avsc */,
+				506266F221EDCDFD001E2BA1 /* HotelOrder.avsc */,
+				506266F321EDCDFD001E2BA1 /* CreateCarOrder.avsc */,
+				506266F421EDCDFD001E2BA1 /* EventType.avdl */,
+			);
+			path = resources;
+			sourceTree = "<group>";
+		};
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
@@ -132,6 +175,7 @@
 		6003F593195388D20070C39A /* Example for MXAvroLogValidate */ = {
 			isa = PBXGroup;
 			children = (
+				506266E721EDCDFD001E2BA1 /* resources */,
 				6003F59C195388D20070C39A /* MXAppDelegate.h */,
 				6003F59D195388D20070C39A /* MXAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
@@ -277,9 +321,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
+				506266FD21EDCDFD001E2BA1 /* CarOrder.avsc in Resources */,
+				506266FA21EDCDFD001E2BA1 /* Order.avsc in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
+				5062670021EDCDFD001E2BA1 /* CreateCarOrder.avsc in Resources */,
+				506266FF21EDCDFD001E2BA1 /* HotelOrder.avsc in Resources */,
+				506266FE21EDCDFD001E2BA1 /* SubmitCarOrder.avsc in Resources */,
+				5062670121EDCDFD001E2BA1 /* EventType.avdl in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
+				506266F921EDCDFD001E2BA1 /* Client.avsc in Resources */,
+				506266FB21EDCDFD001E2BA1 /* BaseLog.avsc in Resources */,
+				506266F721EDCDFD001E2BA1 /* SubmitHotelOrder.avsc in Resources */,
+				506266FC21EDCDFD001E2BA1 /* CreateHotelOrder.avsc in Resources */,
+				506266F821EDCDFD001E2BA1 /* EventType.avsc in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
+				506266F521EDCDFD001E2BA1 /* UserInfo.avsc in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

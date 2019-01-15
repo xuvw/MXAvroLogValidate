@@ -1,0 +1,6 @@
+framework module Pods_MXAvroLogValidate_Example {
+  umbrella header "Pods-MXAvroLogValidate_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

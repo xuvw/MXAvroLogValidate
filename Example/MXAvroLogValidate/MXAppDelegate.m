@@ -7,12 +7,40 @@
 //
 
 #import "MXAppDelegate.h"
+@import MXAvroLogValidate;
 
 @implementation MXAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+    NSArray *schemas = @[@"BaseLog",
+                         @"CreateHotelOrder",
+                         @"SubmitCarOrder",
+                         @"CarOrder",
+                         @"EventType",
+                         @"SubmitHotelOrder",
+                         @"Client",
+                         @"HotelOrder",
+                         @"UserInfo",
+                         @"CreateCarOrder",
+                         @"Order"];
+    [MXAvroLogValidator configWithRootSchema:@"BaseLog" subSchemas:schemas];
+    
+    NSString *json = @"{\"eventType\":\"createCarOrder\",\"userId\":\"userId\",\"traceId\":\"traceId\",\"distinctId\":\"distinctId\",\"project\":\"project\",\"uri\":\"uri\",\"host\":\"host\",\"startTime\":-1000,\"endTime\":-1000,\"status\":-1000,\"client\":{\"clientType\":\"clientType\",\"accessKey\":\"accessKey\",\"manufacturer\":\"manufacturer\",\"model\":\"model\",\"os\":\"os\",\"osVersion\":\"osVersion\",\"ip\":\"ip\",\"browser\":\"browser\",\"browserVersion\":\"browserVersion\",\"appVersion\":\"appVersion\"},\"userInfo\":{\"uname\":\"uname\",\"userType\":\"userType\",\"userToken\":\"userToken\"},\"order\":{\"hotelOrder\":{\"createHotelOrder\":{\"orderNo\":\"orderNo\",\"hotelId\":-1000,\"hotelName\":\"hotelName\"},\"submitHotelOrder\":{\"orderNo\":\"orderNo\",\"priceActual\":-1000}},\"carOrder\":{\"createCarOrder\":{\"orderNo\":\"orderNo\",\"goodNo\":\"goodNo\",\"orderType\":\"orderType\"},\"submitCarOrder\":{\"orderNo\":\"orderNo\",\"goodNo\":\"goodNo\",\"orderType\":\"orderType\",\"priceActual\":-1000}}}}";
+    NSData *rawData = [json dataUsingEncoding:NSUTF8StringEncoding];
+    
+    NSError *error = nil;
+    NSDictionary *jsonObject = [NSJSONSerialization JSONObjectWithData:rawData options:NSJSONReadingMutableContainers error:&error];
+    
+    NSDictionary *dic = jsonObject;
+    [dic validateAvroLogWith:^(BOOL validateResult, NSDictionary * _Nonnull invalidatePathDic) {
+        if (!validateResult) {
+            NSLog(@"校验失败:%@",invalidatePathDic);
+        }else {
+            NSLog(@"校验成功");
+        }
+    }];
+    
     return YES;
 }
 

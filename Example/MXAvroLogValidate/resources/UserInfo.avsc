@@ -1,0 +1,15 @@
+{
+  "type" : "record",
+  "name" : "UserInfo",
+  "namespace" : "com.huangbaoche.logservice.avro",
+  "fields" : [ {
+    "name" : "uname",
+    "type" : "string"
+  }, {
+    "name" : "userType",
+    "type" : "string"
+  }, {
+    "name" : "userToken",
+    "type" : "string"
+  } ]
+}

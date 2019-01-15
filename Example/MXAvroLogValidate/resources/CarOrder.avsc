@@ -1,0 +1,41 @@
+{
+  "type" : "record",
+  "name" : "CarOrder",
+  "namespace" : "com.huangbaoche.logservice.avro",
+  "fields" : [ {
+    "name" : "createCarOrder",
+    "type" : [ "null", {
+      "type" : "record",
+      "name" : "CreateCarOrder",
+      "fields" : [ {
+        "name" : "orderNo",
+        "type" : [ "null", "string" ]
+      }, {
+        "name" : "goodNo",
+        "type" : [ "null", "string" ]
+      }, {
+        "name" : "orderType",
+        "type" : [ "null", "string" ]
+      } ]
+    } ]
+  }, {
+    "name" : "submitCarOrder",
+    "type" : [ "null", {
+      "type" : "record",
+      "name" : "SubmitCarOrder",
+      "fields" : [ {
+        "name" : "orderNo",
+        "type" : [ "null", "string" ]
+      }, {
+        "name" : "goodNo",
+        "type" : [ "null", "string" ]
+      }, {
+        "name" : "orderType",
+        "type" : [ "null", "string" ]
+      }, {
+        "name" : "priceActual",
+        "type" : [ "null", "long" ]
+      } ]
+    } ]
+  } ]
+}

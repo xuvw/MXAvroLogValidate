@@ -1,0 +1,36 @@
+{
+  "type" : "record",
+  "name" : "Client",
+  "namespace" : "com.huangbaoche.logservice.avro",
+  "fields" : [ {
+    "name" : "clientType",
+    "type" : [ "null", "string" ]
+  }, {
+    "name" : "accessKey",
+    "type" : [ "null", "string" ]
+  }, {
+    "name" : "manufacturer",
+    "type" : [ "null", "string" ]
+  }, {
+    "name" : "model",
+    "type" : [ "null", "string" ]
+  }, {
+    "name" : "os",
+    "type" : [ "null", "string" ]
+  }, {
+    "name" : "osVersion",
+    "type" : [ "null", "string" ]
+  }, {
+    "name" : "ip",
+    "type" : [ "null", "string" ]
+  }, {
+    "name" : "browser",
+    "type" : [ "null", "string" ]
+  }, {
+    "name" : "browserVersion",
+    "type" : [ "null", "string" ]
+  }, {
+    "name" : "appVersion",
+    "type" : [ "null", "string" ]
+  } ]
+}

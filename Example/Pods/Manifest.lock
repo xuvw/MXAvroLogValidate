@@ -1,0 +1,16 @@
+PODS:
+  - MXAvroLogValidate (0.1.0)
+
+DEPENDENCIES:
+  - MXAvroLogValidate (from `../`)
+
+EXTERNAL SOURCES:
+  MXAvroLogValidate:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MXAvroLogValidate: 8e1b96ee43fb1f99b212344d2e1cf65fc283daec
+
+PODFILE CHECKSUM: 19565ac01c029bc421b759bf1f976d81a8b7d899
+
+COCOAPODS: 1.5.3

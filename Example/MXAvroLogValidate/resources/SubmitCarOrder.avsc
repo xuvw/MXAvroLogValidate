@@ -1,0 +1,18 @@
+{
+  "type" : "record",
+  "name" : "SubmitCarOrder",
+  "namespace" : "com.huangbaoche.logservice.avro",
+  "fields" : [ {
+    "name" : "orderNo",
+    "type" : [ "null", "string" ]
+  }, {
+    "name" : "goodNo",
+    "type" : [ "null", "string" ]
+  }, {
+    "name" : "orderType",
+    "type" : [ "null", "string" ]
+  }, {
+    "name" : "priceActual",
+    "type" : [ "null", "long" ]
+  } ]
+}

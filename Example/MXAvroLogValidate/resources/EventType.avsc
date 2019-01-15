@@ -1,0 +1,6 @@
+{
+  "type" : "enum",
+  "name" : "EventType",
+  "namespace" : "com.huangbaoche.logservice.avro",
+  "symbols" : [ "createCarOrder", "submitCarOrder", "createHotelOrder", "submitHotelOrder" ]
+}

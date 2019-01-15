@@ -1,0 +1,759 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		063D8DA4F6B77875B666311245963B47 /* MXAvroLogValidate.h in Headers */ = {isa = PBXBuildFile; fileRef = 8626C6A3FB0D4D3F3805EE8D99A6C763 /* MXAvroLogValidate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0AD5EA0EDF37FE0E95B51834BDF54170 /* MXAvroLogValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C8FE6B776542CE5F2255A5E06332B20 /* MXAvroLogValidator.m */; };
+		2EBC943E91A08157367E5140B3938451 /* Pods-MXAvroLogValidate_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B22E78AB0597F7C7E670A18C717539 /* Pods-MXAvroLogValidate_Tests-dummy.m */; };
+		3910F7B7C65C0CBB6DDAA2DE9DB5A6FE /* NSDictionary+MXAvro.h in Headers */ = {isa = PBXBuildFile; fileRef = 357F888C38C20B04AE2C013E3D34A321 /* NSDictionary+MXAvro.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4D1D72A91E1494643B72F77CC50F3ED2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		93E63E036772747E6A60DD788C18E7E6 /* Pods-MXAvroLogValidate_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E7F3DB27AE8C7198870285090C08A776 /* Pods-MXAvroLogValidate_Example-dummy.m */; };
+		A1BF3215BEAA0993564BB4AB3125300F /* Pods-MXAvroLogValidate_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 01C5C4C9925D071F9AB2A047C4B19C1D /* Pods-MXAvroLogValidate_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B8E2415C0F8A62E1BB65ECD1623B2898 /* MXAvroLogValidator.h in Headers */ = {isa = PBXBuildFile; fileRef = 037C37E1EEC76D547699423D6194B29A /* MXAvroLogValidator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C4EAD946967F6696E668FDE4655DFA20 /* NSDictionary+MXAvro.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A72255B3647A88C55CF95E31937C332 /* NSDictionary+MXAvro.m */; };
+		D51A6D405521D8C47B2F4B8639EF7A94 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		DC18DDAAED067A9E9FE991E382A54EA7 /* MXAvroLogValidate-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 727FA7913D7D9026EC7424C3D02C7B98 /* MXAvroLogValidate-dummy.m */; };
+		E3A2C57B2B2714E01154894A9CAA19FA /* MXAvroLogValidate-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8BE84FB2AA0F9025393A5DEAE6DC112A /* MXAvroLogValidate-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EBF0AEF742B7EA5B4DF1F0FCD167DB71 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		FD9883C901C78FA74FF3233D5C28080D /* Pods-MXAvroLogValidate_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 41B4C9122F7FEC80832765703BE3A510 /* Pods-MXAvroLogValidate_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0633E5B07D8BA3DC13CB5B95776B4801 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13D64246F43065F80F3DF021D13CB9AF;
+			remoteInfo = "Pods-MXAvroLogValidate_Example";
+		};
+		A001979DCD136D9BC5B1AD9AE0B97338 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E438E5B857B8D43A82810786C6D2516D;
+			remoteInfo = MXAvroLogValidate;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01C5C4C9925D071F9AB2A047C4B19C1D /* Pods-MXAvroLogValidate_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MXAvroLogValidate_Tests-umbrella.h"; sourceTree = "<group>"; };
+		037C37E1EEC76D547699423D6194B29A /* MXAvroLogValidator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MXAvroLogValidator.h; path = MXAvroLogValidate/Classes/MXAvroLogValidator.h; sourceTree = "<group>"; };
+		07C00229AB8E429E20D0D96BC849224E /* Pods-MXAvroLogValidate_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MXAvroLogValidate_Tests-resources.sh"; sourceTree = "<group>"; };
+		07C5FF4F0B8E1344786DAE73E60949FA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0AEABA06E9AADB00750C4148758EAF3F /* MXAvroLogValidate.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MXAvroLogValidate.xcconfig; sourceTree = "<group>"; };
+		0D5A5B3B7E583ABBC43F03964F2B2FBC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		16E7259B53655CEA9561F57122404C97 /* MXAvroLogValidate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MXAvroLogValidate.framework; path = MXAvroLogValidate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		29B22E78AB0597F7C7E670A18C717539 /* Pods-MXAvroLogValidate_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MXAvroLogValidate_Tests-dummy.m"; sourceTree = "<group>"; };
+		357F888C38C20B04AE2C013E3D34A321 /* NSDictionary+MXAvro.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+MXAvro.h"; path = "MXAvroLogValidate/Classes/NSDictionary+MXAvro.h"; sourceTree = "<group>"; };
+		41B4C9122F7FEC80832765703BE3A510 /* Pods-MXAvroLogValidate_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MXAvroLogValidate_Example-umbrella.h"; sourceTree = "<group>"; };
+		54307F6D65621B453C5E8F2C2747A931 /* Pods-MXAvroLogValidate_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MXAvroLogValidate_Tests.modulemap"; sourceTree = "<group>"; };
+		55B517437B66B7BCFA10BE75A174A6CC /* Pods-MXAvroLogValidate_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MXAvroLogValidate_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		55F284E4FC30A6F4F27D0C3532C89AE2 /* Pods-MXAvroLogValidate_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MXAvroLogValidate_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		56ECD9885DE965BB85E164C0DAD89B73 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		5A8D841BCF809E185B150FB59933CB7F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		5B44D373947C314FDCF9356DEC3CE8EE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		5C8FE6B776542CE5F2255A5E06332B20 /* MXAvroLogValidator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MXAvroLogValidator.m; path = MXAvroLogValidate/Classes/MXAvroLogValidator.m; sourceTree = "<group>"; };
+		675EB7A1A9A628E0B94258B6DE30ECD4 /* Pods_MXAvroLogValidate_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MXAvroLogValidate_Tests.framework; path = "Pods-MXAvroLogValidate_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F76E6D14CEB8A3E4A97AA65F1A2DEB7 /* Pods_MXAvroLogValidate_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MXAvroLogValidate_Example.framework; path = "Pods-MXAvroLogValidate_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		727FA7913D7D9026EC7424C3D02C7B98 /* MXAvroLogValidate-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MXAvroLogValidate-dummy.m"; sourceTree = "<group>"; };
+		7E748C51C6A0A922C45DB213089CD37D /* Pods-MXAvroLogValidate_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MXAvroLogValidate_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		8060431EADFA685DA839005617E4EBD9 /* Pods-MXAvroLogValidate_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MXAvroLogValidate_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		8626C6A3FB0D4D3F3805EE8D99A6C763 /* MXAvroLogValidate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MXAvroLogValidate.h; path = MXAvroLogValidate/Classes/MXAvroLogValidate.h; sourceTree = "<group>"; };
+		8BE84FB2AA0F9025393A5DEAE6DC112A /* MXAvroLogValidate-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MXAvroLogValidate-umbrella.h"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9A72255B3647A88C55CF95E31937C332 /* NSDictionary+MXAvro.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+MXAvro.m"; path = "MXAvroLogValidate/Classes/NSDictionary+MXAvro.m"; sourceTree = "<group>"; };
+		9B780C655DF8B7B50DAEF45482142030 /* Pods-MXAvroLogValidate_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MXAvroLogValidate_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A5F550DD95AC4B238EA39A37277B254F /* Pods-MXAvroLogValidate_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MXAvroLogValidate_Example-frameworks.sh"; sourceTree = "<group>"; };
+		AD6A28611EB8862A193FEF533D21F7B4 /* Pods-MXAvroLogValidate_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MXAvroLogValidate_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		AFD25B6E8914FECFA2214037E1B0D75C /* MXAvroLogValidate-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MXAvroLogValidate-prefix.pch"; sourceTree = "<group>"; };
+		B87F4C109FDEB02A574E3D35F3854413 /* MXAvroLogValidate.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MXAvroLogValidate.modulemap; sourceTree = "<group>"; };
+		BCA4E4E2C8E16DF0172ADE5F32C5CA3E /* MXAvroLogValidate.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = MXAvroLogValidate.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C24F854CFE9A960195BC46B8FAB33720 /* Pods-MXAvroLogValidate_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MXAvroLogValidate_Example.modulemap"; sourceTree = "<group>"; };
+		D56AB114468E50D33D871D4ADC6C9047 /* Pods-MXAvroLogValidate_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MXAvroLogValidate_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		D5D716A60445E79CF58B909A152571F4 /* Pods-MXAvroLogValidate_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MXAvroLogValidate_Example-resources.sh"; sourceTree = "<group>"; };
+		E7F3DB27AE8C7198870285090C08A776 /* Pods-MXAvroLogValidate_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MXAvroLogValidate_Example-dummy.m"; sourceTree = "<group>"; };
+		F02E6317867766D61D6ECD67221E870D /* Pods-MXAvroLogValidate_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MXAvroLogValidate_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		F51858F40A058C9EC86F2ADCE3FBDB65 /* Pods-MXAvroLogValidate_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MXAvroLogValidate_Example.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		17C5586DA2B35F50C61F9921D8AD8920 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D1D72A91E1494643B72F77CC50F3ED2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5496B27256481469D698298BB12EA4B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBF0AEF742B7EA5B4DF1F0FCD167DB71 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90F16F212D8A9656F9B67A5C9105C232 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D51A6D405521D8C47B2F4B8639EF7A94 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		441CD687A51A9D0246DCE51A62B335D8 /* Pods-MXAvroLogValidate_Example */ = {
+			isa = PBXGroup;
+			children = (
+				07C5FF4F0B8E1344786DAE73E60949FA /* Info.plist */,
+				C24F854CFE9A960195BC46B8FAB33720 /* Pods-MXAvroLogValidate_Example.modulemap */,
+				9B780C655DF8B7B50DAEF45482142030 /* Pods-MXAvroLogValidate_Example-acknowledgements.markdown */,
+				7E748C51C6A0A922C45DB213089CD37D /* Pods-MXAvroLogValidate_Example-acknowledgements.plist */,
+				E7F3DB27AE8C7198870285090C08A776 /* Pods-MXAvroLogValidate_Example-dummy.m */,
+				A5F550DD95AC4B238EA39A37277B254F /* Pods-MXAvroLogValidate_Example-frameworks.sh */,
+				D5D716A60445E79CF58B909A152571F4 /* Pods-MXAvroLogValidate_Example-resources.sh */,
+				41B4C9122F7FEC80832765703BE3A510 /* Pods-MXAvroLogValidate_Example-umbrella.h */,
+				D56AB114468E50D33D871D4ADC6C9047 /* Pods-MXAvroLogValidate_Example.debug.xcconfig */,
+				F51858F40A058C9EC86F2ADCE3FBDB65 /* Pods-MXAvroLogValidate_Example.release.xcconfig */,
+			);
+			name = "Pods-MXAvroLogValidate_Example";
+			path = "Target Support Files/Pods-MXAvroLogValidate_Example";
+			sourceTree = "<group>";
+		};
+		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		73B8C92D470D4A3934FDD5553FCB5DC8 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0D5A5B3B7E583ABBC43F03964F2B2FBC /* Info.plist */,
+				B87F4C109FDEB02A574E3D35F3854413 /* MXAvroLogValidate.modulemap */,
+				0AEABA06E9AADB00750C4148758EAF3F /* MXAvroLogValidate.xcconfig */,
+				727FA7913D7D9026EC7424C3D02C7B98 /* MXAvroLogValidate-dummy.m */,
+				AFD25B6E8914FECFA2214037E1B0D75C /* MXAvroLogValidate-prefix.pch */,
+				8BE84FB2AA0F9025393A5DEAE6DC112A /* MXAvroLogValidate-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/MXAvroLogValidate";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				FE23CD91ABCE621AEBA6AD16FF4BDE2D /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				F5ABB7DBB72F65E3B90A4B0B74C6D644 /* Products */,
+				842C5B923585B5F8C129BBEBEA526B4D /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		842C5B923585B5F8C129BBEBEA526B4D /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				441CD687A51A9D0246DCE51A62B335D8 /* Pods-MXAvroLogValidate_Example */,
+				D442064A9C399F17CEDF2AA66CD04F5B /* Pods-MXAvroLogValidate_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E0D919E635D23B70123790B8308F8EF /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CBDB7ABFE93CEA59143F53A90D29CCDE /* MXAvroLogValidate */ = {
+			isa = PBXGroup;
+			children = (
+				8626C6A3FB0D4D3F3805EE8D99A6C763 /* MXAvroLogValidate.h */,
+				037C37E1EEC76D547699423D6194B29A /* MXAvroLogValidator.h */,
+				5C8FE6B776542CE5F2255A5E06332B20 /* MXAvroLogValidator.m */,
+				357F888C38C20B04AE2C013E3D34A321 /* NSDictionary+MXAvro.h */,
+				9A72255B3647A88C55CF95E31937C332 /* NSDictionary+MXAvro.m */,
+				D55D345CFB5645FE91B71DF686410074 /* Pod */,
+				73B8C92D470D4A3934FDD5553FCB5DC8 /* Support Files */,
+			);
+			name = MXAvroLogValidate;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		D442064A9C399F17CEDF2AA66CD04F5B /* Pods-MXAvroLogValidate_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				56ECD9885DE965BB85E164C0DAD89B73 /* Info.plist */,
+				54307F6D65621B453C5E8F2C2747A931 /* Pods-MXAvroLogValidate_Tests.modulemap */,
+				55F284E4FC30A6F4F27D0C3532C89AE2 /* Pods-MXAvroLogValidate_Tests-acknowledgements.markdown */,
+				AD6A28611EB8862A193FEF533D21F7B4 /* Pods-MXAvroLogValidate_Tests-acknowledgements.plist */,
+				29B22E78AB0597F7C7E670A18C717539 /* Pods-MXAvroLogValidate_Tests-dummy.m */,
+				F02E6317867766D61D6ECD67221E870D /* Pods-MXAvroLogValidate_Tests-frameworks.sh */,
+				07C00229AB8E429E20D0D96BC849224E /* Pods-MXAvroLogValidate_Tests-resources.sh */,
+				01C5C4C9925D071F9AB2A047C4B19C1D /* Pods-MXAvroLogValidate_Tests-umbrella.h */,
+				55B517437B66B7BCFA10BE75A174A6CC /* Pods-MXAvroLogValidate_Tests.debug.xcconfig */,
+				8060431EADFA685DA839005617E4EBD9 /* Pods-MXAvroLogValidate_Tests.release.xcconfig */,
+			);
+			name = "Pods-MXAvroLogValidate_Tests";
+			path = "Target Support Files/Pods-MXAvroLogValidate_Tests";
+			sourceTree = "<group>";
+		};
+		D55D345CFB5645FE91B71DF686410074 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				5B44D373947C314FDCF9356DEC3CE8EE /* LICENSE */,
+				BCA4E4E2C8E16DF0172ADE5F32C5CA3E /* MXAvroLogValidate.podspec */,
+				5A8D841BCF809E185B150FB59933CB7F /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		F5ABB7DBB72F65E3B90A4B0B74C6D644 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				16E7259B53655CEA9561F57122404C97 /* MXAvroLogValidate.framework */,
+				6F76E6D14CEB8A3E4A97AA65F1A2DEB7 /* Pods_MXAvroLogValidate_Example.framework */,
+				675EB7A1A9A628E0B94258B6DE30ECD4 /* Pods_MXAvroLogValidate_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FE23CD91ABCE621AEBA6AD16FF4BDE2D /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CBDB7ABFE93CEA59143F53A90D29CCDE /* MXAvroLogValidate */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		08765FECAD6482729D70249AB97F5844 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3A2C57B2B2714E01154894A9CAA19FA /* MXAvroLogValidate-umbrella.h in Headers */,
+				063D8DA4F6B77875B666311245963B47 /* MXAvroLogValidate.h in Headers */,
+				B8E2415C0F8A62E1BB65ECD1623B2898 /* MXAvroLogValidator.h in Headers */,
+				3910F7B7C65C0CBB6DDAA2DE9DB5A6FE /* NSDictionary+MXAvro.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		806F28FA3EB2FEA0D39ED6A49A1AAA5C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1BF3215BEAA0993564BB4AB3125300F /* Pods-MXAvroLogValidate_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB5C6FF6A5896DDF17F2F7E54DD730EB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD9883C901C78FA74FF3233D5C28080D /* Pods-MXAvroLogValidate_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		084B61D2D908331949D7D81EFB7803B3 /* Pods-MXAvroLogValidate_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2087D52544387E0333E3DAB57C19594E /* Build configuration list for PBXNativeTarget "Pods-MXAvroLogValidate_Tests" */;
+			buildPhases = (
+				22236637FC04914621F57B3B19A7DB8C /* Sources */,
+				90F16F212D8A9656F9B67A5C9105C232 /* Frameworks */,
+				806F28FA3EB2FEA0D39ED6A49A1AAA5C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D6D2A39BE3A5299A8BF6C62F717652DC /* PBXTargetDependency */,
+			);
+			name = "Pods-MXAvroLogValidate_Tests";
+			productName = "Pods-MXAvroLogValidate_Tests";
+			productReference = 675EB7A1A9A628E0B94258B6DE30ECD4 /* Pods_MXAvroLogValidate_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		13D64246F43065F80F3DF021D13CB9AF /* Pods-MXAvroLogValidate_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7FCC913F35E18402ADB1D083F9CE9370 /* Build configuration list for PBXNativeTarget "Pods-MXAvroLogValidate_Example" */;
+			buildPhases = (
+				66698CA97303DCC3608E0B0B976EBF54 /* Sources */,
+				5496B27256481469D698298BB12EA4B0 /* Frameworks */,
+				DB5C6FF6A5896DDF17F2F7E54DD730EB /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1350656CF10AABC9C9F24A8BF1DED9F5 /* PBXTargetDependency */,
+			);
+			name = "Pods-MXAvroLogValidate_Example";
+			productName = "Pods-MXAvroLogValidate_Example";
+			productReference = 6F76E6D14CEB8A3E4A97AA65F1A2DEB7 /* Pods_MXAvroLogValidate_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E438E5B857B8D43A82810786C6D2516D /* MXAvroLogValidate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC1523D79D2BA2557630937A0E85DC83 /* Build configuration list for PBXNativeTarget "MXAvroLogValidate" */;
+			buildPhases = (
+				34542B2367B296702A78E00849B5104C /* Sources */,
+				17C5586DA2B35F50C61F9921D8AD8920 /* Frameworks */,
+				08765FECAD6482729D70249AB97F5844 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MXAvroLogValidate;
+			productName = MXAvroLogValidate;
+			productReference = 16E7259B53655CEA9561F57122404C97 /* MXAvroLogValidate.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = F5ABB7DBB72F65E3B90A4B0B74C6D644 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E438E5B857B8D43A82810786C6D2516D /* MXAvroLogValidate */,
+				13D64246F43065F80F3DF021D13CB9AF /* Pods-MXAvroLogValidate_Example */,
+				084B61D2D908331949D7D81EFB7803B3 /* Pods-MXAvroLogValidate_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		22236637FC04914621F57B3B19A7DB8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EBC943E91A08157367E5140B3938451 /* Pods-MXAvroLogValidate_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34542B2367B296702A78E00849B5104C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC18DDAAED067A9E9FE991E382A54EA7 /* MXAvroLogValidate-dummy.m in Sources */,
+				0AD5EA0EDF37FE0E95B51834BDF54170 /* MXAvroLogValidator.m in Sources */,
+				C4EAD946967F6696E668FDE4655DFA20 /* NSDictionary+MXAvro.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66698CA97303DCC3608E0B0B976EBF54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93E63E036772747E6A60DD788C18E7E6 /* Pods-MXAvroLogValidate_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1350656CF10AABC9C9F24A8BF1DED9F5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MXAvroLogValidate;
+			target = E438E5B857B8D43A82810786C6D2516D /* MXAvroLogValidate */;
+			targetProxy = A001979DCD136D9BC5B1AD9AE0B97338 /* PBXContainerItemProxy */;
+		};
+		D6D2A39BE3A5299A8BF6C62F717652DC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-MXAvroLogValidate_Example";
+			target = 13D64246F43065F80F3DF021D13CB9AF /* Pods-MXAvroLogValidate_Example */;
+			targetProxy = 0633E5B07D8BA3DC13CB5B95776B4801 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1EE19F5DD95931924296F637BF18BD8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		5166AB08F68DE3E3440F7939E1D6954A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0AEABA06E9AADB00750C4148758EAF3F /* MXAvroLogValidate.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MXAvroLogValidate/MXAvroLogValidate-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MXAvroLogValidate/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MXAvroLogValidate/MXAvroLogValidate.modulemap";
+				PRODUCT_MODULE_NAME = MXAvroLogValidate;
+				PRODUCT_NAME = MXAvroLogValidate;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		91C6F2F97DE1F97EEC27674DF7C0EA8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8060431EADFA685DA839005617E4EBD9 /* Pods-MXAvroLogValidate_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MXAvroLogValidate_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MXAvroLogValidate_Tests/Pods-MXAvroLogValidate_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		979FAECC637667BDE6523C2FA48B68AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0AEABA06E9AADB00750C4148758EAF3F /* MXAvroLogValidate.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MXAvroLogValidate/MXAvroLogValidate-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MXAvroLogValidate/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MXAvroLogValidate/MXAvroLogValidate.modulemap";
+				PRODUCT_MODULE_NAME = MXAvroLogValidate;
+				PRODUCT_NAME = MXAvroLogValidate;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B0D67063B91A39C4781173BB76F76A3F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D56AB114468E50D33D871D4ADC6C9047 /* Pods-MXAvroLogValidate_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MXAvroLogValidate_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MXAvroLogValidate_Example/Pods-MXAvroLogValidate_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E4EA9BE31984647917C8DF18BDECDA8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F51858F40A058C9EC86F2ADCE3FBDB65 /* Pods-MXAvroLogValidate_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MXAvroLogValidate_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MXAvroLogValidate_Example/Pods-MXAvroLogValidate_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F39D8C683A2BB07DE71B69AADCBC8B7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 55B517437B66B7BCFA10BE75A174A6CC /* Pods-MXAvroLogValidate_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MXAvroLogValidate_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MXAvroLogValidate_Tests/Pods-MXAvroLogValidate_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F4568DEE257655D290C2B9CEAB37C934 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2087D52544387E0333E3DAB57C19594E /* Build configuration list for PBXNativeTarget "Pods-MXAvroLogValidate_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F39D8C683A2BB07DE71B69AADCBC8B7C /* Debug */,
+				91C6F2F97DE1F97EEC27674DF7C0EA8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EE19F5DD95931924296F637BF18BD8F /* Debug */,
+				F4568DEE257655D290C2B9CEAB37C934 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7FCC913F35E18402ADB1D083F9CE9370 /* Build configuration list for PBXNativeTarget "Pods-MXAvroLogValidate_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0D67063B91A39C4781173BB76F76A3F /* Debug */,
+				E4EA9BE31984647917C8DF18BDECDA8B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC1523D79D2BA2557630937A0E85DC83 /* Build configuration list for PBXNativeTarget "MXAvroLogValidate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				979FAECC637667BDE6523C2FA48B68AD /* Debug */,
+				5166AB08F68DE3E3440F7939E1D6954A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

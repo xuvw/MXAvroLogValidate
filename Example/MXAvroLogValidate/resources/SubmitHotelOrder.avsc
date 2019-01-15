@@ -1,0 +1,12 @@
+{
+  "type" : "record",
+  "name" : "SubmitHotelOrder",
+  "namespace" : "com.huangbaoche.logservice.avro",
+  "fields" : [ {
+    "name" : "orderNo",
+    "type" : [ "null", "string" ]
+  }, {
+    "name" : "priceActual",
+    "type" : [ "null", "long" ]
+  } ]
+}

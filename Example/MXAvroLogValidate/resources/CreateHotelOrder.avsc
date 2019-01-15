@@ -1,0 +1,15 @@
+{
+  "type" : "record",
+  "name" : "CreateHotelOrder",
+  "namespace" : "com.huangbaoche.logservice.avro",
+  "fields" : [ {
+    "name" : "orderNo",
+    "type" : [ "null", "string" ]
+  }, {
+    "name" : "hotelId",
+    "type" : [ "null", "long" ]
+  }, {
+    "name" : "hotelName",
+    "type" : [ "null", "string" ]
+  } ]
+}

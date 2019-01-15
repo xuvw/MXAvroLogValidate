@@ -1,0 +1,178 @@
+{
+  "type" : "record",
+  "name" : "BaseLog",
+  "namespace" : "com.huangbaoche.logservice.avro",
+  "fields" : [ {
+    "name" : "eventType",
+    "type" : {
+      "type" : "enum",
+      "name" : "EventType",
+      "symbols" : [ "createCarOrder", "submitCarOrder", "createHotelOrder", "submitHotelOrder" ]
+    }
+  }, {
+    "name" : "userId",
+    "type" : [ "null", "string" ]
+  }, {
+    "name" : "traceId",
+    "type" : [ "null", "string" ]
+  }, {
+    "name" : "distinctId",
+    "type" : [ "null", "string" ]
+  }, {
+    "name" : "project",
+    "type" : [ "null", "string" ]
+  }, {
+    "name" : "uri",
+    "type" : [ "null", "string" ]
+  }, {
+    "name" : "host",
+    "type" : [ "null", "string" ]
+  }, {
+    "name" : "startTime",
+    "type" : [ "null", "long" ]
+  }, {
+    "name" : "endTime",
+    "type" : [ "null", "long" ]
+  }, {
+    "name" : "status",
+    "type" : [ "null", "long" ]
+  }, {
+    "name" : "client",
+    "type" : [ "null", {
+      "type" : "record",
+      "name" : "Client",
+      "fields" : [ {
+        "name" : "clientType",
+        "type" : [ "null", "string" ]
+      }, {
+        "name" : "accessKey",
+        "type" : [ "null", "string" ]
+      }, {
+        "name" : "manufacturer",
+        "type" : [ "null", "string" ]
+      }, {
+        "name" : "model",
+        "type" : [ "null", "string" ]
+      }, {
+        "name" : "os",
+        "type" : [ "null", "string" ]
+      }, {
+        "name" : "osVersion",
+        "type" : [ "null", "string" ]
+      }, {
+        "name" : "ip",
+        "type" : [ "null", "string" ]
+      }, {
+        "name" : "browser",
+        "type" : [ "null", "string" ]
+      }, {
+        "name" : "browserVersion",
+        "type" : [ "null", "string" ]
+      }, {
+        "name" : "appVersion",
+        "type" : [ "null", "string" ]
+      } ]
+    } ]
+  }, {
+    "name" : "userInfo",
+    "type" : [ "null", {
+      "type" : "record",
+      "name" : "UserInfo",
+      "fields" : [ {
+        "name" : "uname",
+        "type" : "string"
+      }, {
+        "name" : "userType",
+        "type" : "string"
+      }, {
+        "name" : "userToken",
+        "type" : "string"
+      } ]
+    } ]
+  }, {
+    "name" : "order",
+    "type" : [ "null", {
+      "type" : "record",
+      "name" : "Order",
+      "fields" : [ {
+        "name" : "hotelOrder",
+        "type" : [ "null", {
+          "type" : "record",
+          "name" : "HotelOrder",
+          "fields" : [ {
+            "name" : "createHotelOrder",
+            "type" : [ "null", {
+              "type" : "record",
+              "name" : "CreateHotelOrder",
+              "fields" : [ {
+                "name" : "orderNo",
+                "type" : [ "null", "string" ]
+              }, {
+                "name" : "hotelId",
+                "type" : [ "null", "long" ]
+              }, {
+                "name" : "hotelName",
+                "type" : [ "null", "string" ]
+              } ]
+            } ]
+          }, {
+            "name" : "submitHotelOrder",
+            "type" : [ "null", {
+              "type" : "record",
+              "name" : "SubmitHotelOrder",
+              "fields" : [ {
+                "name" : "orderNo",
+                "type" : [ "null", "string" ]
+              }, {
+                "name" : "priceActual",
+                "type" : [ "null", "long" ]
+              } ]
+            } ]
+          } ]
+        } ]
+      }, {
+        "name" : "carOrder",
+        "type" : [ "null", {
+          "type" : "record",
+          "name" : "CarOrder",
+          "fields" : [ {
+            "name" : "createCarOrder",
+            "type" : [ "null", {
+              "type" : "record",
+              "name" : "CreateCarOrder",
+              "fields" : [ {
+                "name" : "orderNo",
+                "type" : [ "null", "string" ]
+              }, {
+                "name" : "goodNo",
+                "type" : [ "null", "string" ]
+              }, {
+                "name" : "orderType",
+                "type" : [ "null", "string" ]
+              } ]
+            } ]
+          }, {
+            "name" : "submitCarOrder",
+            "type" : [ "null", {
+              "type" : "record",
+              "name" : "SubmitCarOrder",
+              "fields" : [ {
+                "name" : "orderNo",
+                "type" : [ "null", "string" ]
+              }, {
+                "name" : "goodNo",
+                "type" : [ "null", "string" ]
+              }, {
+                "name" : "orderType",
+                "type" : [ "null", "string" ]
+              }, {
+                "name" : "priceActual",
+                "type" : [ "null", "long" ]
+              } ]
+            } ]
+          } ]
+        } ]
+      } ]
+    } ]
+  } ]
+}

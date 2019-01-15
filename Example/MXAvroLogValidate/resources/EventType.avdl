@@ -1,0 +1,19 @@
+@namespace("com.huangbaoche.logservice.avro")
+
+protocol HbcLogProtocol{
+
+    enum EventType {
+
+        // =========== order ===============
+
+        // order car
+        createCarOrder,                                // 创建用车订单
+        submitCarOrder,                                // 提交用车订单
+
+        // order hotel
+        createHotelOrder,                              // 创建酒店订单
+        submitHotelOrder                               // 提交酒店订单
+
+        // ========== end order ============
+    }
+}

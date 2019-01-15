@@ -1,0 +1,84 @@
+{
+  "type" : "record",
+  "name" : "Order",
+  "namespace" : "com.huangbaoche.logservice.avro",
+  "fields" : [ {
+    "name" : "hotelOrder",
+    "type" : [ "null", {
+      "type" : "record",
+      "name" : "HotelOrder",
+      "fields" : [ {
+        "name" : "createHotelOrder",
+        "type" : [ "null", {
+          "type" : "record",
+          "name" : "CreateHotelOrder",
+          "fields" : [ {
+            "name" : "orderNo",
+            "type" : [ "null", "string" ]
+          }, {
+            "name" : "hotelId",
+            "type" : [ "null", "long" ]
+          }, {
+            "name" : "hotelName",
+            "type" : [ "null", "string" ]
+          } ]
+        } ]
+      }, {
+        "name" : "submitHotelOrder",
+        "type" : [ "null", {
+          "type" : "record",
+          "name" : "SubmitHotelOrder",
+          "fields" : [ {
+            "name" : "orderNo",
+            "type" : [ "null", "string" ]
+          }, {
+            "name" : "priceActual",
+            "type" : [ "null", "long" ]
+          } ]
+        } ]
+      } ]
+    } ]
+  }, {
+    "name" : "carOrder",
+    "type" : [ "null", {
+      "type" : "record",
+      "name" : "CarOrder",
+      "fields" : [ {
+        "name" : "createCarOrder",
+        "type" : [ "null", {
+          "type" : "record",
+          "name" : "CreateCarOrder",
+          "fields" : [ {
+            "name" : "orderNo",
+            "type" : [ "null", "string" ]
+          }, {
+            "name" : "goodNo",
+            "type" : [ "null", "string" ]
+          }, {
+            "name" : "orderType",
+            "type" : [ "null", "string" ]
+          } ]
+        } ]
+      }, {
+        "name" : "submitCarOrder",
+        "type" : [ "null", {
+          "type" : "record",
+          "name" : "SubmitCarOrder",
+          "fields" : [ {
+            "name" : "orderNo",
+            "type" : [ "null", "string" ]
+          }, {
+            "name" : "goodNo",
+            "type" : [ "null", "string" ]
+          }, {
+            "name" : "orderType",
+            "type" : [ "null", "string" ]
+          }, {
+            "name" : "priceActual",
+            "type" : [ "null", "long" ]
+          } ]
+        } ]
+      } ]
+    } ]
+  } ]
+}
